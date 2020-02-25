@@ -7,15 +7,15 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `lucasnad27`,
+    description: `A place for me to put my thoughts`,
     copyrights: '',
-    author: `@panr`,
+    author: `@lucasnad27`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'hello world',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
@@ -26,12 +26,8 @@ module.exports = {
         path: '/about',
       },
       {
-        title: 'Showcase',
-        path: '/showcase',
-      },
-      {
-        title: 'Example',
-        path: '/example',
+        title: 'Notes',
+        path: '/notes',
       },
     ],
   },
@@ -48,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts`,
+        name: `notes`,
+        path: `${__dirname}/src/notes`,
       },
     },
     {
